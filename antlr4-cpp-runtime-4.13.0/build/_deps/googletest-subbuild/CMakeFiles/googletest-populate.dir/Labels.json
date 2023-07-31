@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule"
+		},
+		{
+			"file" : "/bdata2/yyh/ASTCC/antlr4-cpp-runtime-4.13.0/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
