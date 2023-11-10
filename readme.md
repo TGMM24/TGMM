@@ -29,7 +29,6 @@ TGMM is a tree-based code clone detection tool that offers support for detecting
 	- cloneLV.txt:
 	`[code block number, clone pair number, file origination rate, code autonomy rate, execution time.]`
 ## Notes
-- Multiple suffixes: When the file you want to detect has multiple suffixes, you can modify the if statement on line 26 in `./utils/JavaExtract.cpp`.
 - CloneLV setting: The specific value of `cloneLV` should refer to different Antlr `xxParser.g4` files. For example, in the `javaParser.g4`, Function-level code blocks are subtrees rooted at methodDeclaration. `methodDeclaration
     : typeTypeOrVoid identifier formalParameters ('[' ']')*
       (THROWS qualifiedNameList)?

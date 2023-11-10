@@ -12,7 +12,7 @@
 #include "stdlib.h"
 #include "stdio.h"
 #include "string.h"
-#include "JavaExtract.h"
+#include "BlockExtract.h"
 #include "AllData.h"
 #include "FuncInfo.h"
 #include "PreProcess.h"
@@ -317,8 +317,6 @@ int main(int argc, char* argv[]){
     auto start = system_clock::now();
     // iniCloneLevelMap();
     string filePath = "/ssd/zww/BigClone/dataset/astnnData/astnnFunctionNormal/";
-    //string filePath = "/bdata/wyk/dataset/dataset/data100k/IJaDataset100k";
-    // string filePath = "/bdata/wyk/dataset/dataset/IJdata220/";
     string cloneLV = "methodDeclaration";
     string outputPath = "./output/";
     string format = ".java";  
