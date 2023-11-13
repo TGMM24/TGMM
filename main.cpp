@@ -316,7 +316,7 @@ int main(int argc, char* argv[]){
     //printMemConsume();
     auto start = system_clock::now();
     // iniCloneLevelMap();
-    string filePath = "/ssd/zww/BigClone/dataset/astnnData/astnnFunctionNormal/";
+    string filePath = "";
     string cloneLV = "methodDeclaration";
     string outputPath = "./output/";
     string format = ".java";  
