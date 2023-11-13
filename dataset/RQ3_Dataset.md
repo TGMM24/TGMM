@@ -20,13 +20,6 @@
 4. shadowsocks-windows: https://github.com/shadowsocks/shadowsocks-windows.git 
 5. v2rayN: https://github.com/2dust/v2rayN.git
 
-## GO
-1. awesome-go: https://github.com/avelino/awesome-go.git
-2. frp: https://github.com/fatedier/frp.git  
-3. gin: https://github.com/gin-gonic/gin.git
-4. go: https://github.com/golang/go.git
-5. kubernetes: https://github.com/kubernetes/kubernetes.git
-
 ## JAVA
 1. java-design-patterns: https://github.com/iluwatar/java-design-patterns.git
 2. mall: https://github.com/macrozheng/mall.git
@@ -41,7 +34,6 @@
 4. javascript-algorithms: https://github.com/trekhleb/javascript-algorithms.git
 5. react: https://github.com/typescript-cheatsheets/react.git
 
-
 ## Kotlin
 1. architecture-samples: https://github.com/android/architecture-samples.git
 2. fanqiang: https://github.com/bannedbook/fanqiang.git
@@ -55,13 +47,6 @@
 3. stable-diffusion-webui: https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 4. transformers: https://github.com/huggingface/transformers.git
 5. youtube-dl: https://github.com/ytdl-org/youtube-dl.git
-
-## Rust
-1. alacritty: https://github.com/alacritty/alacritty.git
-2. deno: https://github.com/denoland/deno.git 
-3. rust: https://github.com/rust-lang/rust.git
-4. rustdesk: https://github.com/rustdesk/rustdesk.git  
-5. tauri: https://github.com/tauri-apps/tauri.git
 
 ## Swift
 1. Alamofire: https://github.com/Alamofire/Alamofire.git 
