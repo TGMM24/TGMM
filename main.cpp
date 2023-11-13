@@ -347,7 +347,7 @@ int main(int argc, char* argv[]){
     PreProcess pp[NUM_THREADS];
     for (int i = 0; i < NUM_THREADS; i++)
     {
-        //C++thread库的构造函数只能以复制的值传递形式传递参数
+        //C++thread
         ppThreads[i] = thread(&PreProcess::getJavaFuncLevelInfo, &pp[i], allFiles, i*divFileNum, min((i+1)*divFileNum, files_num), cloneLV);
         // cout<<"start at:" << i*divFileNum << "; end at:" <<  min((i+1)*divFileNum, files_num) << endl;
     }
@@ -360,9 +360,9 @@ int main(int argc, char* argv[]){
 
     auto end   = system_clock::now();
     auto duration = duration_cast<microseconds>(end - start);
-    outputFile <<  "preprocess花费了" 
+    outputFile <<  "preprocess cost" 
         << double(duration.count()) * microseconds::period::num / microseconds::period::den 
-        << "秒" << endl;
+        << "seconds" << endl;
     //printMemConsume();
 
     vector<unsigned char> copyVec(curConcatedString);
@@ -437,14 +437,14 @@ int main(int argc, char* argv[]){
     //printf("Clone Pairs Num: %d\n", tempPairNum);
     outputFile << "Clone Pairs Num: "<< tempPairNum << endl;
     //output clone info
-    outputFile << "文件原创率：" <<1 - 1.0*cloneFileSet.size()/totalFileNum << endl;
-    outputFile << "代码自主率：" <<1 - 1.0*cloneLineNum/totalLineNum << endl;
+    outputFile << "File originality rate: " <<1 - 1.0*cloneFileSet.size()/totalFileNum << endl;
+    outputFile << "Code independence rate: " <<1 - 1.0*cloneLineNum/totalLineNum << endl;
     
     end   = system_clock::now();
     duration = duration_cast<microseconds>(end - start);
-    outputFile <<  "花费了" 
+    outputFile <<  "cost " 
         << double(duration.count()) * microseconds::period::num / microseconds::period::den 
-        << "秒" << endl;
+        << "seconds" << endl;
     outputFile.close();
     return 0;
 }

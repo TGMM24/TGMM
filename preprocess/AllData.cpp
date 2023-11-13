@@ -23,5 +23,4 @@ int yushu = 253;
 mutex mtx;
 AllData::AllData() {
     curCSEndIndex = 0;
-    //curConcatedString.resize(suffixLen);
 }
