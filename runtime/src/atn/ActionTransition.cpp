@@ -6,7 +6,7 @@
 #include "atn/ActionTransition.h"
 
 using namespace antlr4::atn;
-
+ 
 ActionTransition::ActionTransition(ATNState *target, size_t ruleIndex)
   : Transition(TransitionType::ACTION, target), ruleIndex(ruleIndex), actionIndex(INVALID_INDEX), isCtxDependent(false) {
 }

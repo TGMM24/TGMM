@@ -7,5 +7,5 @@ class AllData
         AllData(/* args */);
         AllData(const std::string& edgeInfoPath);
 };
-
+ 
 #endif

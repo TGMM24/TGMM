@@ -84,7 +84,7 @@ int getClonePairNum(int len) {
     }
     return res;
 }
-
+ 
 struct Timer{
 	size_t start;
 	Timer(){

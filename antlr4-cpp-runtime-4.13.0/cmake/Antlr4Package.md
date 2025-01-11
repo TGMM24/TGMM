@@ -10,7 +10,7 @@ line in your `CMakeList.txt` file.
 
 The package exposes a function `antlr4_generate` that generates the required setup to call ANTLR for a
 given input file during build.
-
+ 
 The following table lists the parameters that can be used with the function:
 
 Argument# | Required  | Default | Use
