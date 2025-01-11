@@ -28,10 +28,3 @@ TGMM is a tree-based code clone detection tool that offers support for detecting
 	`[function_index_A, function_index_B]`
 	- cloneLV.txt:
 	`[code block number, clone pair number, file origination rate, code autonomy rate, execution time.]`
-## Notes
-- Multilingual settings: Grammar files for all programming languages are stored in the `./AllGrammar/` folder. We have unified the grammar files for the 9 popular languages: "myLexer.g4" and "myPrser.g4". If you want to detect clones for other programming languages, you can change the name of its corresponding grammar file or modify the `#include` section in the `preprocess.cpp` file.
-- CloneLV setting: The specific value of `cloneLV` should refer to different Antlr `xxParser.g4` files. For example, in the `javaParser.g4`, Function-level code blocks are subtrees rooted at methodDeclaration. `methodDeclaration
-    : typeTypeOrVoid identifier formalParameters ('[' ']')*
-      (THROWS qualifiedNameList)?
-      methodBody
-    ;`
